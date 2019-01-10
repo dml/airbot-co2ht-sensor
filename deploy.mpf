@@ -1,0 +1,9 @@
+open ws:192.168.0.199,wemos
+mput .*\.py
+ls
+lcd umqtt
+md  umqtt
+cd  umqtt
+putc robust.py
+putc simple.py
+ls
